@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Coração</title>
+
+    <style>
+        * {
+            font-family:Arial, Helvetica, sans-serif
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            gap: 1em;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .main {
+            text-align: center;
+        }
+
+        form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+                <!-- Aqui vai o seu menu -->
+                <ul class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="appointment.html">Book an appointment</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="./img/contact.png">
+            </div>
+    
+            <div class="content">
+                <div>
+                    <h1>Contact us!</h1>
+                    <h3>Fone</h3>
+                    <p>(55) 11234-5678</p>
+                    <h3>Address</h3>
+                    <p>Avenida Paulista, São Paulo - SP</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197490294479!2d-46.65868298558551!3d-23.561349567475688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1665934798573!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <hr />
+
+                <div>
+                    <h1>Send us a message!</h1>
+                    <form name="form" autocomplete="on" target="_blank" method="POST" action="#">
+                        <label>Full name</label><input type="text" name="name" /><br>
+                        <label>E-mail</label><input type="" name="" /><br>
+                        <label>Subject</label><input type="text" name="subject" /><br>
+                        <label>Message</label>
+                        <textarea rows="10" cols="50" name="message"></textarea>
+                        <input type="submit" value="Submit">
+                    </form> 
+                </div>
+           </div>
+    
+            <div class="footer">
+                <hr />
+                <p>
+                    Thank you for choosing us!
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
